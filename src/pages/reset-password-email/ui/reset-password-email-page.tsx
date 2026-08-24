@@ -119,13 +119,13 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 14,
   },
   inputWrap: {
     flex: 1,
   },
   buttonWrap: {
     width: 118,
-    marginLeft: 10,
   },
   timer: {
     fontSize: 14,

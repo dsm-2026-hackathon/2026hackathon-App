@@ -122,7 +122,6 @@ const styles = StyleSheet.create({
   body: {
     paddingHorizontal: 20,
     paddingTop: 68,
-    
   },
   heading: {
     fontSize: 22,
@@ -134,13 +133,13 @@ const styles = StyleSheet.create({
   emailRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 14,
   },
   emailField: {
     flex: 1,
   },
   emailButton: {
     width: 118,
-    marginLeft: 10,
   },
   codeWrap: {
     marginTop: 18,

@@ -7,6 +7,7 @@ import { AuthButton } from '@/src/shared/ui/auth/auth-button';
 import { AuthHeader } from '@/src/shared/ui/auth/auth-header';
 import { AuthInput } from '@/src/shared/ui/auth/auth-input';
 import { AuthScreen } from '@/src/shared/ui/auth/auth-screen';
+import { GoogleSigninButton } from '@/src/shared/ui/auth/google-signin-button';
 
 export function LoginPage() {
   const [identifier, setIdentifier] = useState('');
@@ -40,6 +41,7 @@ export function LoginPage() {
           <AuthButton disabled={!canLogin} onPress={() => router.replace('/(tabs)')}>
             로그인하기
           </AuthButton>
+          <GoogleSigninButton bordered onPress={() => {}} />
         </View>
 
         <View style={styles.bottom}>

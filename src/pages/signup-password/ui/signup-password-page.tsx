@@ -40,7 +40,7 @@ export function SignupPasswordPage() {
             placeholder="비밀번호 확인"
             secureTextEntry
             value={confirmPassword}
-          />x
+          />
           <Text style={[styles.helper, isMatch && styles.helperSuccess]}>
             {isMatch ? '비밀번호 일치' : '비밀번호를 동일하게 입력해주세요.'}
           </Text>
